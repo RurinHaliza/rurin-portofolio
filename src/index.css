@@ -3,3 +3,43 @@
 html {
   scroll-behavior: smooth;
 }
+
+.particle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+
+  background: white;
+  border-radius: 50%;
+
+  opacity: 0.6;
+
+  box-shadow: 0 0 6px rgba(255,255,255,0.5);
+
+  animation: twinkle ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.45;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0.45;
+  }
+}
+

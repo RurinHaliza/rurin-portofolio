@@ -10,6 +10,8 @@ import GithubStats from "./sections/GithubStats"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import ParticleBackground from "./components/ParticleBackground"
+
 
 function App() {
 
@@ -21,10 +23,11 @@ function App() {
   }, [])
 
   return (
-    <div className="bg-black text-white overflow-x-hidden">
+    <div className="bg-black text-white overflow-x-hidden relative">
+
+      <ParticleBackground />
 
       <Navbar />
-
       <Hero />
       <About />
       <Skills />

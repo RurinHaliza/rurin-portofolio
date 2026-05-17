@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
+import { User, FolderKanban, Award, Mail } from "lucide-react"
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -10,32 +11,36 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
         <h1 className="text-2xl font-bold text-cyan-400">
-          Rurin.dev
+          Rin.
         </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-gray-300">
 
           <li>
-            <a href="#about" className="hover:text-cyan-400 transition">
+            <a href="#about" className="flex items-center gap-2 hover:text-cyan-400 transition">
+              <User size={20} />
               About
             </a>
           </li>
 
           <li>
-            <a href="#projects" className="hover:text-cyan-400 transition">
+            <a href="#projects" className="flex items-center gap-2 hover:text-cyan-400 transition">
+              <FolderKanban size={20} />
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#certificates" className="hover:text-cyan-400 transition">
+            <a href="#certificates" className="flex items-center gap-2 hover:text-cyan-400 transition">
+              <Award size={20} />
               Certificates
             </a>
           </li>
 
           <li>
-            <a href="#contact" className="hover:text-cyan-400 transition">
+            <a href="#contact" className="flex items-center gap-2 hover:text-cyan-400 transition">
+              <Mail size={20} />
               Contact
             </a>
           </li>

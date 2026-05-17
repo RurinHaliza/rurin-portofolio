@@ -1,11 +1,12 @@
 import { TypeAnimation } from "react-type-animation"
+import ParticleBackground from "../components/ParticleBackground"
 
 function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-black px-6 overflow-hidden">
-
+      
       <div className="absolute w-72 h-72 bg-cyan-400/20 blur-3xl rounded-full"></div>
-
+      
       <div className="text-center max-w-4xl">
 
         <p className="text-cyan-400 text-lg mb-4">
