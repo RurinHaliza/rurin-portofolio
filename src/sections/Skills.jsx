@@ -134,10 +134,6 @@ const skills = [
     name: "Machine Learning",
     icon: <BrainCircuit size={38} />,
   },
-  {
-  name: "System Analyst",
-  icon: <Workflow size={38} />,
-  },
 ]
 
 function Skills() {

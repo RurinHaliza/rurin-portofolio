@@ -3,13 +3,13 @@ const projects = [
     title: "SiLombok",
 
     description:
-      "IoT and AI-based chili monitoring system with automatic watering and disease detection.",
+      "AI-based chili monitoring disease detection. Integrated to IoT System",
 
     tech: ["IoT", "AI", "Machine Learning"],
 
     category: "IoT & AI",
 
-    github: "https://github.com/",
+    github: "https://github.com/RurinHaliza/SiLombok.git",
 
     demo: "https://your-demo-link.com",
 
@@ -26,7 +26,7 @@ const projects = [
 
     category: "QA Automation",
 
-    github: "https://github.com/",
+    github: "https://github.com/RurinHaliza/selenium-pytest-automation.git",
 
     demo: "https://your-demo-link.com",
 
@@ -43,11 +43,28 @@ const projects = [
 
     category: "Web Development",
 
-    github: "https://github.com/",
+    github: "https://github.com/RurinHaliza/Dicoding-Project-Akhir-Intermediate.git",
 
-    demo: "https://your-demo-link.com",
+    demo: "https://rurinhaliza.github.io/Dicoding-Project-Akhir-Intermediate/",
 
-    image: "/projects/storyapp.png",
+    image: "/projects/storyapp.PNG",
+  },
+
+  {
+    title: "Note App",
+
+    description:
+      "A web-based note-taking application that allows users to create, display, and delete notes dynamically through RESTful API integration. Built using Fetch API with loading indicators and managed efficiently using Webpack.",
+
+    tech: ["JavaScript", "Webpack", "API"],
+
+    category: "Web Development",
+
+    github: "https://rurinhaliza.github.io/Dicoding-Notes-App-2-/",
+
+    demo: "https://github.com/RurinHaliza/Dicoding-Notes-App-2-.git",
+
+    image: "/projects/noteapp.PNG",
   },
 ]
 
