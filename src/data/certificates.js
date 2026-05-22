@@ -34,12 +34,12 @@ const certificates = [
   // =========================
 
   {
-    title: "Memulai Dasar Pemrograman",
+    title: "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
     issuer: "Dicoding",
     category: "Web Development",
 
     images: [
-      "/certificates/certificate1.png",
+      "/certificates/Dasar-Pemrograman-untuk-Menjadi-Pengembang-Software/1.png",
     ],
 
     link: "#",
@@ -51,7 +51,7 @@ const certificates = [
     category: "Web Development",
 
     images: [
-      "/certificates/certificate2.png",
+      "/certificates/Belajar-Dasar-Git-dengan-Github/1.png",
     ],
 
     link: "#",
@@ -63,10 +63,92 @@ const certificates = [
     category: "Web Development",
 
     images: [
-      "/certificates/certificate3.png",
+      "/certificates/Belajar-Pengembangan-Web-Intermediate/1.png",
     ],
 
     link: "#",
+  },
+  {
+    title: "Dasar Pemrograman Web",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Belajar-Dasar-Pemrograman-Web/1.png",
+    ],
+
+    link: "#",
+  },
+
+  {
+    title: "Belajar Membuat FrontEnd Web untuk Pemula",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Belajar-Membuat-FrontEnd-Web-untuk-Pemula/1.png",
+    ],
+
+    link: "#",
+  },
+
+  {
+    title: "Pengenalan ke Logika Pemrograman",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Pengenalan-ke-Logika-Pemrograman/1.png",
+    ],
+
+    link: "#",
+  },
+    {
+    title: "Belajar Fundamental FrontEnd Web Development",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Belajar-Fundamental-FrontEnd-Web-Development/1.png",
+    ],
+
+    link: "#",
+  },
+  {
+    title: "Belajar Dasar Pemrograman JavaScript",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Belajar-Dasar-Pemrograman-javaScript/1.png",
+    ],
+
+    link: "#",
+  },
+
+  {
+    title: "Belajar Back End Pemula dengan JavaScript",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Belajar-Back-End-Pemula-dengan-JavaScript/1.png",
+    ],
+
+    link: "#",
+  },
+
+  {
+    title: "Coding Camp 2025 Certificate",
+    issuer: "Dicoding",
+    category: "Web Development",
+
+    images: [
+      "/certificates/Coding-Camp-2025-Certificate/1.png",
+      "/certificates/Coding-Camp-2025-Certificate/2.png"
+    ],
+
+    link: "/certificates/Coding-Camp-2025-Certificate/1.png",
   },
 
   // =========================
