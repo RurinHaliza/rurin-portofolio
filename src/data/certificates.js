@@ -10,8 +10,8 @@ const certificates = [
     category: "Academic",
 
     images: [
-      "/certificates/ukk-front.png",
-      "/certificates/ukk-back.png",
+      "/certificates/SMK/Ujikom_1.jpg",
+      "/certificates/SMK/Ujikom_2.jpg",
     ],
 
     link: "#",
@@ -23,10 +23,10 @@ const certificates = [
     category: "Academic",
 
     images: [
-      "/certificates/pkl.png",
+      "/certificates/SMK/pkl.jpg",
     ],
 
-    link: "#",
+    link: "/certificates/SMK/pkl.pdf",
   },
 
   // =========================
@@ -42,7 +42,7 @@ const certificates = [
       "/certificates/Dasar-Pemrograman-untuk-Menjadi-Pengembang-Software/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Dasar-Pemrograman-untuk-Menjadi-Pengembang-Software/1.png",
   },
 
   {
@@ -54,7 +54,7 @@ const certificates = [
       "/certificates/Belajar-Dasar-Git-dengan-Github/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Dasar-Git-dengan-Github/1.png",
   },
 
   {
@@ -66,7 +66,7 @@ const certificates = [
       "/certificates/Belajar-Pengembangan-Web-Intermediate/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Pengembangan-Web-Intermediate/1.png",
   },
   {
     title: "Dasar Pemrograman Web",
@@ -77,7 +77,7 @@ const certificates = [
       "/certificates/Belajar-Dasar-Pemrograman-Web/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Dasar-Pemrograman-Web/1.png",
   },
 
   {
@@ -89,7 +89,7 @@ const certificates = [
       "/certificates/Belajar-Membuat-FrontEnd-Web-untuk-Pemula/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Membuat-FrontEnd-Web-untuk-Pemula/1.png",
   },
 
   {
@@ -101,7 +101,7 @@ const certificates = [
       "/certificates/Pengenalan-ke-Logika-Pemrograman/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Pengenalan-ke-Logika-Pemrograman/1.png",
   },
     {
     title: "Belajar Fundamental FrontEnd Web Development",
@@ -112,7 +112,7 @@ const certificates = [
       "/certificates/Belajar-Fundamental-FrontEnd-Web-Development/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Fundamental-FrontEnd-Web-Development/1.png",
   },
   {
     title: "Belajar Dasar Pemrograman JavaScript",
@@ -123,7 +123,7 @@ const certificates = [
       "/certificates/Belajar-Dasar-Pemrograman-javaScript/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Dasar-Pemrograman-javaScript/1.png",
   },
 
   {
@@ -135,7 +135,7 @@ const certificates = [
       "/certificates/Belajar-Back-End-Pemula-dengan-JavaScript/1.png",
     ],
 
-    link: "#",
+    link: "/certificates/Belajar-Back-End-Pemula-dengan-JavaScript/1.png",
   },
 
   {
