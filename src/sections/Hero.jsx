@@ -21,11 +21,11 @@ function Hero() {
 
           <TypeAnimation
             sequence={[
-              "Web Developer",
-              2000,
               "QA Automation Enthusiast",
               2000,
-              "AI & IoT Enthusiast",
+              "Web Developer",
+              2000,
+              "AI Engineer",
               2000,
             ]}
             wrapper="span"
@@ -37,7 +37,7 @@ function Hero() {
 
         <p className="text-gray-500 mt-8 leading-relaxed">
           I build modern web applications, automation testing systems,
-          and intelligent IoT solutions based on real-world projects
+          and machine learning solutions based on real-world projects
           and study experiences.
         </p>
 

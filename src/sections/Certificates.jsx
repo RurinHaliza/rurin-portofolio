@@ -7,6 +7,8 @@ function Certificates() {
 
   const [activeCategory, setActiveCategory] =
     useState("All")
+  const [visibleCount, setVisibleCount] =
+    useState(6)
 
   const categories = [
     "All",
@@ -51,9 +53,10 @@ function Certificates() {
 
             <button
               key={index}
-              onClick={() =>
+              onClick={() => {
                 setActiveCategory(category)
-              }
+                setVisibleCount(6)
+              }}
               className={`
                 px-5
                 py-2
@@ -89,20 +92,51 @@ function Certificates() {
           "
         >
 
-          {filteredCertificates.map(
-            (certificate, index) => (
+          {filteredCertificates
+            .slice(0, visibleCount)
+            .map((certificate, index) => (
 
               <CertificateCard
                 key={index}
                 {...certificate}
               />
 
-            )
-          )}
+            ))
+          }
 
         </div>
-
+        
       </div>
+        {visibleCount < filteredCertificates.length && (
+
+          <div className="flex justify-center mt-10">
+
+            <button
+              onClick={() =>
+                setVisibleCount(prev => prev + 6)
+              }
+              className="
+                px-6
+                py-3
+
+                bg-cyan-400
+                text-black
+
+                rounded-xl
+                font-semibold
+
+                hover:scale-105
+
+                transition
+                duration-300
+              "
+            >
+              Show More
+            </button>
+
+          </div>
+
+            )}
 
     </section>
 

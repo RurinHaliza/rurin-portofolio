@@ -5,7 +5,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 text-center text-gray-500">
 
         <p>
-          © 2026 Rurin Haliza. Built with React & Tailwind CSS.
+          © 2026 Rurin Haliza.
         </p>
 
       </div>

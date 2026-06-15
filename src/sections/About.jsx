@@ -15,15 +15,14 @@ function About() {
           <div>
             <p className="text-gray-400 leading-relaxed mb-6">
               I am a Software Engineering student with interests in
-              Web Development, QA Automation, Artificial Intelligence,
-              and IoT systems.
+              Web Development, QA Automation, and AI/Machine Learning.
             </p>
 
             <p className="text-gray-400 leading-relaxed mb-6">
               During my study and independent learning journey at
               Dicoding, I have built several real-world projects
-              including web applications, automation testing systems,
-              AI-based systems, and IoT monitoring platforms.
+              including web applications, automation testing systems, and
+              AI-based systems.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
@@ -60,7 +59,7 @@ function About() {
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Automation Testing
+                Manual & Automation Testing
               </p>
             </div>
 
@@ -70,7 +69,7 @@ function About() {
               </h3>
 
               <p className="text-gray-400 mt-2">
-                IoT & ML Projects
+                ML Projects
               </p>
             </div>
 

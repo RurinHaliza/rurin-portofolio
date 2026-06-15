@@ -11,8 +11,6 @@ const projects = [
 
     github: "https://github.com/RurinHaliza/SiLombok.git",
 
-    demo: "https://your-demo-link.com",
-
     image: "/projects/silombok.PNG",
   },
 
@@ -24,13 +22,43 @@ const projects = [
 
     tech: ["Python", "Selenium", "Automation Testing"],
 
-    category: "QA Automation",
+    category: "Quality Assurance",
 
     github: "https://github.com/RurinHaliza/selenium-pytest-automation.git",
 
-    demo: "https://your-demo-link.com",
+    documentation: "https://tinyurl.com/AMetativeHLE-Test",
 
     image: "/projects/testing.PNG",
+  },
+
+  {
+    title: "Efiasi Testing",
+
+    description:
+      "Conducted manual black-box testing by creating test plans, designing test cases, and developing a Requirement Traceability Matrix (RTM) to ensure application requirements were fully validated.",
+
+    tech: ["Python", "Selenium", "Automation Testing"],
+
+    category: "Quality Assurance",
+
+    documentation: "https://tinyurl.com/Efiasi-Testing",
+
+    image: "/projects/Efiasi.PNG",
+  },
+
+  {
+    title: "Arena Finder Testing",
+
+    description:
+      "Performed manual black-box testing through test planning, test case execution, and RTM documentation to verify system functionality against specified requirements.",
+
+    tech: ["Python", "Selenium", "Automation Testing"],
+
+    category: "Quality Assurance",
+
+    documentation: "https://tinyurl.com/ArenaFinder-Testing",
+
+    image: "/projects/ArenaFinder.PNG",
   },
 
   {

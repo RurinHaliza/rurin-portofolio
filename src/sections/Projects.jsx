@@ -9,7 +9,7 @@ function Projects() {
   const categories = [
     "All",
     "Web Development",
-    "QA Automation",
+    "Quality Assurance",
     "IoT & AI",
   ]
 

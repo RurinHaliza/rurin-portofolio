@@ -4,7 +4,9 @@ function ProjectCard({
   tech,
   github,
   demo,
+  documentation,
   image,
+  category,
 }) {
   return (
     <div className="bg-[#111] rounded-2xl overflow-hidden border border-gray-800 hover:border-cyan-400 transition">
@@ -26,7 +28,6 @@ function ProjectCard({
         </p>
 
         <div className="flex flex-wrap gap-2 mb-6">
-
           {tech.map((item, index) => (
             <span
               key={index}
@@ -35,26 +36,45 @@ function ProjectCard({
               {item}
             </span>
           ))}
-
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-wrap">
 
-          <a
-            href={github}
-            target="_blank"
-            className="bg-white text-black px-4 py-2 rounded-lg font-medium"
-          >
-            GitHub
-          </a>
+          {/* GitHub */}
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-black px-4 py-2 rounded-lg font-medium"
+            >
+              GitHub
+            </a>
+          )}
 
-          <a
-            href={demo}
-            target="_blank"
-            className="border border-gray-700 px-4 py-2 rounded-lg"
-          >
-            Live Demo
-          </a>
+          {/* Web Development */}
+          {category === "Web Development" && demo && (
+            <a
+              href={demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-gray-700 px-4 py-2 rounded-lg"
+            >
+              Live Demo
+            </a>
+          )}
+
+          {/* QA Automation */}
+          {category === "Quality Assurance" && documentation && (
+            <a
+              href={documentation}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-gray-700 px-4 py-2 rounded-lg"
+            >
+              See Documentation
+            </a>
+          )}
 
         </div>
 
